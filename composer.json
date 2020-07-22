@@ -1,5 +1,37 @@
 {
-    "require": {
-        "coffeecode/router": "^1.0"
+  "name": "portfólio",
+  "description": "Projeto portfólio pessoal",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Murillo Araújo",
+      "email": "murilloaraujog@gmail.com",
+      "homepage": "https://murillo-portfolio.herokuapp.com/",
+      "role": "Developer"
     }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "phpmailer/phpmailer": "~6.0",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/uploader": "^1.0",
+    "coffeecode/cropper": "^1.0",
+    "coffeecode/optimizer": "^1.0",
+    "coffeecode/paginator": "^1.0",
+    "coffeecode/router": "^1.0",
+    "eftec/bladeone": "3.46.1"
+  }
 }
