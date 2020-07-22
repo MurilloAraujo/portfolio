@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Murillo | PHP devlopment</title>
+    <title>Murillo | PHP development</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="SRBThemes" />
@@ -97,7 +97,7 @@
                         <div class="col-lg-12">
                             <div class="text-center header-content mx-auto">
                                 <h4 class="text-white first-title mb-4">Welcome</h4>
-                                <h1 class="header-name text-white text-capitalize mb-0">Hello, i'm <span class="element font-weight-bold" data-elements="Murillo Araújo .G Web devlopment"></span></h1>
+                                <h1 class="header-name text-white text-capitalize mb-0">Hello, i'm <span class="element font-weight-bold" data-elements="Murillo Araújo .G Web development"></span></h1>
                                 <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                                 <div class="mt-4 pt-2">
                                     <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
@@ -122,7 +122,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="mt-3">
-                        <img src="images/about.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                        <img src="images/ava.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
                     </div>
                 </div>
                 <div class="col-lg-6">
