@@ -7,7 +7,7 @@
     <title>Murillo | PHP developer</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="author" content="SRBThemes" />
+    <meta name="author" content="Portfolio Murillo Araújo" />
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
