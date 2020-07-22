@@ -1,143 +1,143 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Kerri | Responsive Bootstrap 4 Personal Template</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="SRBThemes" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Murillo | PHP devlopment</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="SRBThemes" />
 
-        <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
-        <!--Bootstrap Css-->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
-        <!-- Materialdesign icons Css -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet">
+    <!-- Materialdesign icons Css -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
 
-        <!-- Mobirise icons Css -->
-        <link href="css/mobiriseicons.css" rel="stylesheet"> 
+    <!-- Mobirise icons Css -->
+    <link href="css/mobiriseicons.css" rel="stylesheet"> 
 
-        <!-- Magnific-popup -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-        <!-- Animate Css -->
-        <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="css/animate.min.css">
 
-        <!-- OWL SLIDER -->
-        <link rel="stylesheet" href="css/owl.carousel.css" />
-        <link rel="stylesheet" href="css/owl.theme.css" />
-        <link rel="stylesheet" href="css/owl.transitions.css" />
+    <!-- OWL SLIDER -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl.transitions.css" />
 
-        <!-- Custom style Css -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/color/default.css" rel="stylesheet" id="option-color">
-    </head>
+    <!-- Custom style Css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/color/default.css" rel="stylesheet" id="option-color">
+</head>
 
-    <body>
+<body>
 
-        <!-- Loader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner">Loading...</div>
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+        <div class="container">
+
+            <a class="navbar-brand pt-0 logo" href="#">
+               <!--  <img src="images/logo.png" alt="" class="img-fluid logo-light">
+                <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark"> -->
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mdi mdi-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#client">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <!-- End Navbar -->
 
-        <!-- Start Navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-            <div class="container">
-
-                <a class="navbar-brand pt-0 logo" href="#">
-                    <img src="images/logo.png" alt="" class="img-fluid logo-light">
-                    <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark">
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="mdi mdi-menu"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#client">Client</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- End Navbar -->
-
-        <!-- START HOME -->
-        <section class="section header-bg-img h-100vh" id="home">
-            <div class="bg-overlay"></div>
-            <div class="header-table">
-                <div class="header-table-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-12">
-                                <div class="text-center header-content mx-auto">
-                                    <h4 class="text-white first-title mb-4">Welcome</h4>
-                                    <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element font-weight-bold" data-elements="Kerri Deo.,A Graphic Designer.,A Photographer."></span></h1>
-                                    <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
-                                    <div class="mt-4 pt-2">
-                                        <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
-                                    </div>
+    <!-- START HOME -->
+    <section class="section header-bg-img h-100vh" id="home">
+        <div class="bg-overlay"></div>
+        <div class="header-table">
+            <div class="header-table-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="text-center header-content mx-auto">
+                                <h4 class="text-white first-title mb-4">Welcome</h4>
+                                <h1 class="header-name text-white text-capitalize mb-0">Hello, i'm <span class="element font-weight-bold" data-elements="Murillo Araújo .G Web devlopment"></span></h1>
+                                <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                                <div class="mt-4 pt-2">
+                                    <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>            
-            <div class="scroll_down">
-                <a href="#about" class="scroll">
-                    <i class="text-white"></i>
-                </a>
             </div>
-        </section>
-        <!-- END HOME -->
+        </div>            
+        <div class="scroll_down">
+            <a href="#about" class="scroll">
+                <i class="text-white"></i>
+            </a>
+        </div>
+    </section>
+    <!-- END HOME -->
 
-        <!-- START ABOUT -->
-        <section class="section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="mt-3">
-                            <img src="images/about.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
-                        </div>
+    <!-- START ABOUT -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="mt-3">
+                        <img src="images/about.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
                     </div>
-                    <div class="col-lg-6">
-                        <div class="mt-3">
-                            <h2><span class="font-weight-bold">About</span> Me</h2>
-                            <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M Kerri Deo.</span></h4>
-                            <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                            <p class="text-muted mt-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                            <p class="text-muted mt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <div>
-                                <ul class="mb-0 about-social list-inline mt-4">
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-dribbble"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mt-3">
+                        <h2><span class="font-weight-bold">About</span> Me</h2>
+                        <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M Murillo.A.</span></h4>
+                        <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                        <p class="text-muted mt-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <p class="text-muted mt-2">There a're many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <div>
+                            <ul class="mb-0 about-social list-inline mt-4">
+                                   <!--  <li class="list-inline-item"><a href="#"><i class="mdi mdi-dribbble"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li> -->
+                                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/murillo__9mm/?hl=pt-br"><i class="mdi mdi-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/murillo-ara%C3%BAjo-393549134/"><i class="mdi mdi-instagram"></i></a></li>
                                 </ul> 
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                                 <i class="mbri-growing-chart text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
-                                <h5 class="mb-0">Graphic Design</h5>
+                                <h5 class="mb-0">Back end Developer</h5>
                                 <div class="services-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
@@ -177,7 +177,7 @@
                                 <i class="mbri-hot-cup text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
-                                <h5 class="mb-0">Unlimited Color</h5>
+                                <h5 class="mb-0">Front-End  Developer</h5>
                                 <div class="services-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
@@ -189,7 +189,7 @@
                                 <i class="mbri-upload text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
-                                <h5 class="mb-0">Media Marketing</h5>
+                                <h5 class="mb-0">Linux server administration</h5>
                                 <div class="services-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
@@ -203,7 +203,7 @@
                                 <i class="mbri-layers text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
-                                <h5 class="mb-0">Unlimited Wifi</h5>
+                                <h5 class="mb-0">SEO Optimization</h5>
                                 <div class="services-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
@@ -510,7 +510,7 @@
                             </div>
                             <div class="mt-3">
                                 <h5 class="mb-0 contact_detail-title font-weight-bold">Call Us On</h5>
-                                <p class="text-muted">+985 123 7856</p>
+                                <p class="text-muted">+55 11(9)5374-6737</p>
                             </div>
                         </div>
                     </div>
@@ -520,8 +520,8 @@
                                 <i class="mbri-letter text-custom h1"></i>
                             </div>
                             <div class="mt-3">
-                                <h5 class="mb-0 contact_detail-title font-weight-bold">Email Us At</h5>
-                                <p class="text-muted">Website.Kerri@gmail.com</p>
+                                <h5 class="mb-0 contact_detail-title font-weight-bold">Email BR At</h5>
+                                <p class="text-muted">murilloaraujog@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -532,7 +532,7 @@
                             </div>
                             <div class="mt-3">
                                 <h5 class="mb-0 contact_detail-title font-weight-bold">Visit Office</h5>
-                                <p class="text-muted">202, Grasselli Street , Conway.</p>
+                                <p class="text-muted">São Paulo - Capital</p>
                             </div>
                         </div>
                     </div>
@@ -587,12 +587,11 @@
                     <div class="col-md-12">
                         <div class="text-center text-white footer-alt">
                             <ul class="list-unstyled list-inline mb-3">
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook text-muted"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin text-muted"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-pinterest text-muted"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter text-muted"></i></a></li>
+
+        <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/murillo__9mm/?hl=pt-br"><i class="mdi mdi-instagram text-muted"></i></a></li>
+                                <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/murillo-ara%C3%BAjo-393549134/"><i class="mdi mdi-linkedin text-muted"></i></a></li>
                             </ul>
-                            <p class="text-muted mb-0"> 2018 - 2020 &copy; Kerri. Design by SRBThemes.</p>
+                            <p class="text-muted mb-0"> 2018 - 2020 &copy; Murillo.A devlopment</p>
                         </div>
                     </div>
                 </div>
@@ -633,7 +632,7 @@
 
         <!-- Back To Top -->    
         <a href="#" class="back_top"> <i class="mdi mdi-chevron-up"> </i> </a>
-      
+
         <!-- JAVASCRIPTS -->
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -654,4 +653,4 @@
         <!--CUSTOM JS-->
         <script src="js/custom.js"></script>
     </body>
-</html>
+    </html>
